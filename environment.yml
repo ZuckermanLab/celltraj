@@ -1,0 +1,26 @@
+name: celltrajp1
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+ - python=3.9
+ - numpy
+ - h5py
+ - matplotlib
+ - pyemma
+ - sphinx_rtd_theme
+ - Sphinx
+ - pytest
+ - scipy
+ - pip
+ - scikit-image
+ - scipy
+ - mahotas
+ - umap-learn
+ - pytorch
+ - pip:
+   - csaps
+   - pystackreg
+   - pygpcca
+   #- cellpose
+   - sklearn
